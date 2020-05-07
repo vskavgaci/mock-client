@@ -24,6 +24,7 @@
         v-model="route"
         :route="true"
         :routeText="apiRoute"
+        text-transform="lowercase"
         rules="required"
         label="Route"
         class="w-full md:w-1/2 md:p-2"
